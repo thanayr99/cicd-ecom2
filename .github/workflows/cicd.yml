@@ -34,7 +34,7 @@ jobs:
       # Configure Git identity
       - name: Configure Git
         run: |
-          git config --global user.name "thanayr"
+          git config --global user.name "thanayr99"
           git config --global user.email "mthanayreddy99@gmail.com"
 
       # Deploy to GitHub Pages
