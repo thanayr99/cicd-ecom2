@@ -1,8 +1,5 @@
 // vite.config.js
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/cicd-ecom2/'
-});
+export default {
+  base: '/cicd-ecom2/',
+  // ...other config
+}
