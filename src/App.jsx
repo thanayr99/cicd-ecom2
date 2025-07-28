@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Login from './components/Login';
 import Signup from './components/Signup';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AboutUs from './components/Aboutus';
 import Computers from './components/Computers';
@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <Router basename="/S219_CICD">
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
